@@ -16,7 +16,7 @@ const About: React.FC = () => (
     <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row justify-between items-start gap-12 md:gap-24">
       
       {/* Text Content */}
-      <div className="flex-1 text-left" data-aos="fade-up">
+      <div className="flex-1 text-left" data-aos="fade-up" data-aos-delay='100'>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-[#EDF0DA]">
           About Our Craft
         </h2>
@@ -49,7 +49,7 @@ const About: React.FC = () => (
       <div
         className="flex-1 flex justify-center md:justify-end"
         data-aos="fade-up"
-        data-aos-delay="100"
+        data-aos-delay="200"
       >
         <div className="relative w-full max-w-[700px] group border-4 border-[#A67C52] rounded-xl overflow-hidden shadow-lg transition-transform duration-300 transform hover:scale-105">
 
