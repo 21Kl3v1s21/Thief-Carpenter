@@ -23,7 +23,7 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center text-[#F0DFAD] overflow-hidden"
       style={{
         backgroundImage:
-          'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, transparent 20%, rgba(0,0,0,0.7) 80%), linear-gradient(to bottom right, #563F1B, #76431E)',
+          'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, transparent 30%, rgba(0,0,0,0.7) 70%), linear-gradient(to bottom right, #563F1B, #76431E)',
       }}
     >
       <div

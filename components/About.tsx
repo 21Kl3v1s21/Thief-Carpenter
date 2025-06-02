@@ -10,16 +10,13 @@ const About: React.FC = () => (
     className="py-20 px-6 text-[#F0DFAD]"
     style={{
       backgroundImage:
-        'linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 20%, rgba(0,0,0,0.7) 60%), linear-gradient(to bottom right, #563F1B, #76431E)',
+        'linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 20%, rgba(0,0,0,0.7) 80%), linear-gradient(to top right, #563F1B, #76431E)',
     }}
   >
     <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row justify-between items-start gap-12 md:gap-24">
       
       {/* Text Content */}
       <div className="flex-1 text-left" data-aos="fade-up" data-aos-delay='100'>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-[#EDF0DA]">
-          About Our Craft
-        </h2>
         <p className="text-base sm:text-lg md:text-xl leading-relaxed mb-2 text-[#EDF0DA] font-semibold">
           Our team specializes in custom woodworking, furniture making, cabinetry, and renovations —
           always focusing on precision and attention to detail.
