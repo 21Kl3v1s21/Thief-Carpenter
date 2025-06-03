@@ -13,7 +13,7 @@ export const tiers = [
       'Up to 10 hours of work',
       'Email support',
     ],
-    image: '/images/tiers/silver.jpg',
+    image: '/images/silver.jpg',
   },
   {
     name: 'Gold',
@@ -29,7 +29,7 @@ export const tiers = [
       'Priority scheduling',
       'Phone & email support',
     ],
-    image: '/images/tiers/gold.jpg',
+    image: '/images/gold.jpg',
   },
   {
   name: 'Diamond',
@@ -46,7 +46,7 @@ export const tiers = [
     'On-site Consultation',
     'Full-service & ongoing support',
   ],
-  image: '/images/tiers/diamond.jpg',
+  image: '/images/diamond.jpg',
 }
 ]
 
