@@ -13,7 +13,7 @@ export const tiers = [
       'Up to 10 hours of work',
       'Email support',
     ],
-    image: '/images/silver-tier.jpg',
+    image: '/images/tiers/silver-tier.jpg',
   },
   {
     name: 'Gold',
@@ -29,7 +29,7 @@ export const tiers = [
       'Priority scheduling',
       'Phone & email support',
     ],
-    image: '/images/gold-tier.jpg',
+    image: '/images/tiers/gold-tier.jpg',
   },
   {
   name: 'Diamond',
@@ -46,6 +46,46 @@ export const tiers = [
     'On-site Consultation',
     'Full-service & ongoing support',
   ],
-  image: '/images/diamond-tier.jpg',
+  image: '/images/tiers/diamond-tier.jpg',
 }
+]
+
+
+export const testimonials = [
+  {
+    name: 'Sarah Thompson',
+    title: 'Homeowner',
+    quote: 'Thief Carpentry transformed our living room with custom woodwork that is now the centerpiece of our home. The craftsmanship is outstanding.',
+    image: '/images/testimonials/testimonial1.jpg',
+  },
+  {
+    name: 'Mike Anderson',
+    title: 'Interior Designer',
+    quote: 'I always recommend Thief Carpentry to my clients. Their work is detail-oriented, honest, and always on time.',
+    image: '/images/testimonials/testimonial2.jpg',
+  },
+  {
+    name: 'Emily Rivera',
+    title: 'Restoration Project Manager',
+    quote: 'Their commitment to traditional techniques and passion for the craft made all the difference in our historical renovation.',
+    image: '/images/testimonials/testimonial3.jpg',
+  },
+  {
+    name: 'John John',
+    title: 'Restoration Project Manager',
+    quote: 'Their commitment to traditional techniques and passion for the craft made all the difference in our historical renovation.',
+    image: '/images/testimonials/testimonial4.jpg',
+  },
+  {
+    name: 'Bob Bobbert',
+    title: 'Restoration Project Manager',
+    quote: 'Their commitment to traditional techniques and passion for the craft made all the difference in our historical renovation.',
+    image: '/images/testimonials/testimonial5.jpg',
+  },
+  {
+    name: 'Liam Keyson',
+    title: 'Restoration Project Manager',
+    quote: 'Their commitment to traditional techniques and passion for the craft made all the difference in our historical renovation.',
+    image: '/images/testimonials/testimonial6.jpg',
+  },
 ]
