@@ -89,3 +89,26 @@ export const testimonials = [
     image: '/images/testimonials/testimonial6.jpg',
   },
 ]
+
+export const faq = [
+  {
+    question: "What types of carpentry services do you offer?",
+    answer:
+      "We specialize in custom woodworking, cabinetry, renovations, and high-end carpentry projects for both residential and commercial spaces.",
+  },
+  {
+    question: "How long does a typical project take?",
+    answer:
+      "Project timelines vary depending on the scope. Small jobs may take a few days, while larger custom builds can range from a couple of weeks to a few months.",
+  },
+  {
+    question: "Do you provide free consultations?",
+    answer:
+      "Yes, we offer free consultations to discuss your vision, provide estimates, and recommend the best solutions tailored to your space.",
+  },
+  {
+    question: "What areas do you serve?",
+    answer:
+      "We serve the local region and surrounding areas. Contact us directly to confirm if we cover your location.",
+  },
+];
