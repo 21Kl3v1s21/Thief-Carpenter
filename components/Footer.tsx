@@ -20,31 +20,26 @@ const Footer = () => (
       {/* Navigation Links */}
       <ul className="flex flex-col md:flex-row gap-4 text-center md:text-right">
         <li>
+          <Link href="/#home" className="hover:text-[#F0DFAD] transition">
+            Home
+          </Link>
+        </li>
+        <li>
           <Link href="/#about" className="hover:text-[#F0DFAD] transition">
             About
           </Link>
         </li>
         <li>
-          <Link href="/#portfolio" className="hover:text-[#F0DFAD] transition">
-            Portfolio
+          <Link href="/#services" className="hover:text-[#F0DFAD] transition">
+            Services
           </Link>
-        </li>
-        <li>
-          <Link href="/#contact" className="hover:text-[#F0DFAD] transition">
-            Contact
-          </Link>
-        </li>
-        <li>
-          <a href="/privacy" className="hover:text-[#F0DFAD] transition">
-            Privacy Policy
-          </a>
         </li>
       </ul>
     </div>
 
     {/* Bottom Note */}
     <div className="mt-8 text-center text-xs text-[#EBEED8]/60">
-      © {new Date().getFullYear()} Thief Carpentry. All rights reserved.
+      © {new Date().getFullYear()} Thief Carpentry. All rights reserved to Thief.
     </div>
   </footer>
 )

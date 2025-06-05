@@ -34,7 +34,7 @@ export default function TestimonialsCarousel() {
   });
 
   return (
-    <section className="py-24 overflow-hidden" 
+    <section id='testimonials' className="py-24 overflow-hidden" 
     style={{
         backgroundImage:
           'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, transparent 30%, rgba(0,0,0,0.7) 70%), linear-gradient(to bottom right, #563F1B, #76431E)',

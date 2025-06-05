@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://thief-carpenter.vercel.app'),
@@ -39,10 +40,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className="flex flex-col min-h-screen scroll-smooth">
         <Navbar/>
         <main className="flex-grow">{children}</main>
+        <BackToTop/>
         <Footer/>
       </body>
     </html>

@@ -74,7 +74,7 @@ const Hero = () => {
                 Contact Us
             </a>
             <a
-                href="#portfolio"
+                href="#services"
                 className="px-6 py-3 border border-[#A67C52] hover:bg-[#A67C52]/20 text-[#F0DFAD] font-semibold rounded-lg transition"
                 data-aos="fade-left"
                 data-aos-delay="400"

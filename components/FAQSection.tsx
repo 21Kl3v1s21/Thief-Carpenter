@@ -13,6 +13,7 @@ export default function FAQSection() {
 
   return (
     <section
+      id='faq'
       className="py-24 px-6 text-[#EBEED8] bg-cover bg-center"
       style={{
       backgroundImage:

@@ -9,7 +9,8 @@ import Link from 'next/link'
 
 export default function TiersSection() {
   return (
-    <section
+    <section 
+      id='services'
       className="py-24 px-6 text-[#EBEED8] bg-cover bg-center"
       style={{
         backgroundImage: `
